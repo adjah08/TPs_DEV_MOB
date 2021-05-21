@@ -1,0 +1,33 @@
+<!DOCTYPE>
+<html>
+<head>
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <script src="js/imc.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>Calcul IMC</title>
+</head>
+<body>
+     <div data-role="page">
+        <div data-role="header" id="header">
+            <h1>Calcul IMC</h1>
+        </div>
+        <div data-role="content">
+            <form>
+                <input type="number" id="poids" placeholder="Poids">
+                <input type="number" id="taille" placeholder="taille">
+                <input type="button" value="Calculer" onclick="task()">
+            </form>
+            <h4 id="resultat"></h4>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>designed by AF</h1>
+        </div>
+    </div>
+
+</body>
+</html>
